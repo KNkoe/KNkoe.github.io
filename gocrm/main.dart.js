@@ -66857,8 +66857,10 @@ A.EF.prototype={
 J(a,b){var s=null
 return A.bq(s,s,B.l,B.bm,s,s,s,this.c.b*0.1,s,s,s,s,1/0)}}
 A.up.prototype={
-J(a,b){var s=b.K(t.w).f.a.b,r=t.p
-return A.bE(A.b([A.dE(null,s*0.2,null),A.cY(A.b([new A.pG(B.wt,this.c,s*0.7,null)],r),B.p,B.eM,B.t)],r),B.p,B.aK,B.t)}}
+J(a,b){var s=t.w,r=b.K(s).f.a,q=t.p,p=A.b([],q)
+if(!(b.K(s).f.a.a<800))p.push(A.dE(null,r.b*0.2,null))
+p.push(A.cY(A.b([new A.pG(B.wt,this.c,r.b*0.7,null)],q),B.p,B.eM,B.t))
+return A.bE(p,B.p,B.aK,B.t)}}
 A.CO.prototype={
 J(a,b){var s=null,r=this.c,q=r.a,p=b.K(t.w).f.a.a<800?q:q*0.4
 return A.bq(B.wk,A.bq(s,A.cb("Organize your entire business on one management platform",s,s,s,A.bR(s,s,B.k,s,s,s,s,s,A.ajs().d,s,s,42,s,B.aG,s,s,!0,s,s,s,s,s,s,s,s),B.cf,s),B.l,s,s,s,s,s,B.Ah,s,s,s,p),B.l,s,s,B.wS,s,r.b*0.5,s,s,s,s,q)}}
